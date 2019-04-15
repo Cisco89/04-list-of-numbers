@@ -18,6 +18,7 @@ def print_each_number_and_its_square():
     # The square of 10 is 100
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
+    import math
     for num in nums:
         number = num
         square = int(math.pow(number,2))
