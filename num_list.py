@@ -7,10 +7,8 @@ def print_each_number():
     # 10
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-for x in nums:
-    print(x)    
-
-    
+    for number in nums:
+        print(number)    
 
 def print_each_number_and_its_square():
     # Write a second loop that prints each number and its square on a new line
@@ -20,8 +18,7 @@ def print_each_number_and_its_square():
     # The square of 10 is 100
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
-for i in nums:
-    number = i
-    square = int(math.pow(number,2))
-    print("The square of", number, "is", square)
+    for num in nums:
+        number = num
+        square = int(math.pow(number,2))
+        print("The square of", number, "is", square)
